@@ -3,7 +3,7 @@ let calculateTip = () => {
     let satisfaction = document.getElementById('survey').value;
     let numPeople = document.getElementById('num-people').value;
     let each = document.getElementById('each');
-    let totalTip = document.getElementById('tip-total')
+    let totalTip = document.getElementById('tip-total');
 
     if (amount === "" || satisfaction === 0) {
         alert('Please Enter Correct Information');
