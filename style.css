@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+    background-image: linear-gradient(to right, rgb(38, 27, 22), rgb(138, 15, 2));
+}
+
+.main-div {
+    margin: 8% auto;
+    width: 25%;
+    border-radius: 20px;
+    border: 0.1px solid white;
+    overflow: hidden;
+}
+
+.heading {
+    background-color: rgb(31, 3, 12);
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.5rem 0;
+}
+
+.main-content {
+    background-color: rgb(247, 247, 247);
+    padding: 1rem 0.5rem;
+}
+
+.bill-ques {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 1rem 0.5rem;
+}
+
+#btn {
+    border: none;
+    background-color: rgb(173, 19, 58);
+    padding: 0.7rem 0.4rem;
+}
+
+#btn:hover {
+    background-color: rgb(76, 40, 39);
+}
+
+input {
+    margin-bottom: 1rem;
+}
+
+.cal-btn {
+    text-align: center;
+}
+
+#each {
+    padding-left: 2rem;
+    margin: 0;
+}
